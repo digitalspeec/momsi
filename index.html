@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Mother's Day!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Happy Mother's Day!</h1>
+        <p class="subtitle">To the most wonderful mum in the world</p>
+    </div>
+    
+    <audio autoplay loop>
+        <source src="Davido---Over-Dem-I-Be-David-For-Life.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+      
+
+    <div class="content">
+        <div class="play-btn-container">
+            <button class="play-btn" id="playBtn">Play</button>
+        </div>
+        
+        <div class="gallery" id="gallery">
+            <!-- Slides will be added dynamically via JavaScript -->
+        </div>
+        
+        <div class="nav-buttons" id="navButtons">
+            <button class="nav-btn" id="prevBtn">Previous</button>
+            <button class="nav-btn" id="nextBtn">Next</button>
+        </div>
+        
+        <div class="video-container" id="videoContainer">
+            <div class="video-placeholder">
+                <video controls autoplay width="100%" height="300">
+                    <source src="vid.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>Made with love for you, Mum ❤️</p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
